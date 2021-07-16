@@ -1,0 +1,14 @@
+{
+    "/admin/js/app.js": "/admin/js/app.js",
+    "/admin/js/app.js.map": "/admin/js/app.js.map",
+    "/js/index.js": "/js/index.js",
+    "/js/index.js.map": "/js/index.js.map",
+    "/css/app.css": "/css/app.css",
+    "/admin/css/app.css": "/admin/css/app.css",
+    "/css/bootstrap.min.css": "/css/bootstrap.min.css",
+    "/css/bootstrap.min.css.map": "/css/bootstrap.min.css.map",
+    "/css/now-ui-kit.css": "/css/now-ui-kit.css",
+    "/css/now-ui-kit.css.map": "/css/now-ui-kit.css.map",
+    "/css/now-ui-kit.min.css": "/css/now-ui-kit.min.css",
+    "/admin/js/all.js": "/admin/js/all.js"
+}

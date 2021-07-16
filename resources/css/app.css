@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "nucleo";
+    src: url("../fonts/nucleo-outline.woff");
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #f5f5f5;
+    overflow-y: auto !important;
+    font-family: "nucleo";
+}
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}

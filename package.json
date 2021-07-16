@@ -1,0 +1,47 @@
+{
+    "homepage": "http://passportconsultancy.uniquecreators.in/public/app",
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-class-properties": "^7.5.5",
+        "@babel/preset-react": "^7.0.0",
+        "axios": "^0.21.1",
+        "bootstrap": "^4.0.0",
+        "browser-sync": "^2.26.14",
+        "browser-sync-webpack-plugin": "^2.0.1",
+        "cross-env": "^5.1",
+        "jquery": "^3.6.0",
+        "laravel-mix": "^4.0.7",
+        "lodash": "^4.17.21",
+        "popper.js": "^1.12",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0",
+        "resolve-url-loader": "^2.3.1",
+        "sass": "^1.15.2",
+        "sass-loader": "^7.1.0",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "@date-io/date-fns": "^1.3.11",
+        "@material-ui/core": "^4.5.1",
+        "@material-ui/icons": "^4.5.1",
+        "@material-ui/pickers": "^3.2.7",
+        "datatables.net-bs4": "^1.10.20",
+        "date-fns": "^2.0.0-beta.5",
+        "material-kit-react": "^1.10.0",
+        "prop-types": "^15.7.2",
+        "react-animated-text": "^0.1.4",
+        "react-router": "^5.1.2",
+        "react-router-dom": "^5.1.2",
+        "react-shadow-image": "^1.0.1",
+        "reactstrap": "^8.9.0"
+    }
+}
